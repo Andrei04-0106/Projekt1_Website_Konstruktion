@@ -1,0 +1,39 @@
+.conteinerEins {
+    background-color: lightgray;
+    font-family: 'Poppings', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 35px;
+
+}
+
+.divEins {
+    background-color: rgb(200, 198, 198);
+    border: 1px solid black;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divZwei {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    margin-top: 555px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: #4a358b;
+    font-size: 15px;
+}
