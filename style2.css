@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body{
+    font-family: "DM Serif Text", serif;
+}
+
 .conteinerEins {
     background-color: lightgray;
-    font-family: 'Poppings', sans-serif;
     font-size: 12px;
 }
 
@@ -21,6 +26,7 @@ h1 {
 
 .divZwei {
     background-color: whitesmoke;
+    width: 400px;
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
@@ -31,7 +37,7 @@ h1 {
 .Home {
     display: flex;
     justify-content: center;
-    margin-top: 555px;
+    margin-top: 620px;
     cursor: pointer;
     letter-spacing: 1px;
     color: #4a358b;

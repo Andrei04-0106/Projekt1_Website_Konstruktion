@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 body {
     background-color: lightgray;
+    font-family: "DM Serif Text", serif;
 }
 
 .kasten {
     background-color: whitesmoke;
+    width: 300px;
     border: 5px solid black;
     border-radius: 10px;
     text-align: center;
@@ -26,12 +29,11 @@ body {
 .fußzeile {
     display: flex;
     justify-content: center;
-    margin-top: 500px;
+    margin-top: 530px;
 }
 
 .fußzeile a {
     color: #4a358b;
-    font-family: 'Poppings', sans-serif;
     letter-spacing: 1px;
     cursor: pointer;
     margin: 3px;

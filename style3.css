@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body {
+    background-color: rgb(230, 229, 229);
+    padding: 0%;
+    margin: 0%;
+    font-family: "DM Serif Text", serif;
+}
+
+.header1 {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 0%;
+}
+
+.header2 {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 8%;
+}
+
+.Homebutton {
+    letter-spacing: 1px;
+    color: #4a358b;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+
+
+.FußZeile {
+    background-color: rgb(56, 53, 53);
+    color: whitesmoke;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+
+.infoKontakt {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+
+.icons {
+    position: absolute;
+    left: 15%;
+    top: 55%;
+    letter-spacing: 5px;
+    font-size: larger;
+}
+
+.formularContainer {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    margin: 2%;
+}
+
+
+.formular input[type=text],
+input[type=email] {
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 3.5%;
+    width: 100%;
+    margin-top: 3%;
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+}
+
+.formular button {
+    color: black;
+    background-color: #F0E4A2;
+    margin-top: 3%;
+    padding: 2%;
+    width: 20%;
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 2px;
+}
