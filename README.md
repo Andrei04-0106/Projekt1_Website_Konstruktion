@@ -18,10 +18,11 @@ Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeige
 ## Geplante Features
 - Responsive Design
 - Optische Verbesserung der Hauptseite
--Optische Verbesserung der Impressumseite
 
 ## Erledigte Features
 -Erweiterung der Kontak Seite
+-Optische Verbesserung der Kopfzeile auf allen Seiten
+-Optische Verbesserung der Impressumseite
 
 ## Live-Demo
 [Hier kannst du die Website ansehen](https://andrei04-0106.github.io/beginner-html-css-projekts)
