@@ -4,8 +4,8 @@ Dieses Repository enthält eine einfache Website, die anzeigt, dass sie sich noc
 
 ## Funktionen
 - Simples Layout mit HTML und CSS
-- Navigation zwischen Hauptseite und Impressum
-- Hinweis für eine Website die sich in der Entwicklung befindet "Under Construction"
+- Navigation zwischen Hauptseite und Impressum und Kontakt
+- Hinweis für eine Website die sich in der Entwicklung befindet "Under-Construction-Website"
 
 
 ## Ziel
@@ -15,13 +15,16 @@ Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeige
 - HTML
 - CSS
 
-## Geplante Verbesserungen
-- Hinzufügen von responsivem Design
-- Verbesserung des Optischen Designs
-- Erweiterung der Navigation (Kontakt)
+## Geplante Features
+- Responsive Design
+- Optische Verbesserung der Hauptseite
+-Optische Verbesserung der Impressumseite
+
+## Erledigte Features
+-Erweiterung der Kontak Seite
 
 ## Live-Demo
 [Hier kannst du die Website ansehen](https://andrei04-0106.github.io/beginner-html-css-projekts)
 
 ## Feedback
-Ich bin Anfänger und freue mich über Vorschlägge und Tipps, wie ich dieses Projekt verbessern kann!
+Ich bin Anfänger und freue mich über Vorschläge und Tipps, wie ich dieses Projekt verbessern kann!
