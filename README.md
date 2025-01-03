@@ -20,24 +20,24 @@ Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeige
 
 ## Erledigte Features
 1. Erweiterung der Kontakseite
-   -Formular Hinzugefügt: E-Mail-Adresse, Name und Message Feld
-   -Optisches Farb Styling
-   -Anschrift Feld mit Social Media Icons
+   - Formular Hinzugefügt: E-Mail-Adresse, Name und Message Feld
+   - Optisches Farb Styling
+   - Anschrift Feld mit Social Media Icons
    
 2. Optische Verbesserung der Kopfzeile auf allen Seiten
-   -Designänderung minimalistisch, einheitliches Design auf allen Seiten
+   - Designänderung minimalistisch, einheitliches Design auf allen Seiten
    
 3. Optische Verbesserung der Impressumseite
-   -Hintergrundfarbänderung dezent und optisch passend mit einem Schattierten Bild
-   -einheitlichen Design
+   - Hintergrundfarbänderung dezent und optisch passend mit einem Schattierten Bild
+   - einheitlichen Design
    
 4. Optische Verbesserung der Hauptseite
-   -Moderner auffallender Farbton
-   -neuer Container mit Link zur GitHub Page mit einer kleinen Hover Animation
+   - Moderner auffallender Farbton
+   - neuer Container mit Link zur GitHub Page mit einer kleinen Hover Animation
    
 5. Hintergrundfarben-Update + Hover-Funktion
-   -Hover für die Icons der Kontakt seite
-   -alle Seite haben neue Moderne Farb Hintergründe 
+   - Hover für die Icons der Kontakt seite
+   - alle Seite haben neue Moderne Farb Hintergründe 
 
 
 ## Live-Demo
