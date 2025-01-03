@@ -7,51 +7,34 @@ body {
     font-family: "DM Serif Text", serif;
 }
 
-.fußzeile {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-}
+
 
 .header1 {
-    background-color: whitesmoke;
-    position: absolute;
-    width: 100%;
-    height: 1%;
-    top: 0%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
 }
 
-.header2 {
-    background-color: whitesmoke;
-    position: absolute;
-    width: 100%;
-    height: 1%;
-    top: 8%;
-}
-
-.Homebutton {
+.fußzeile a {
+    color: #d2dc40;
     letter-spacing: 1px;
-    color: #4a358b;
-    margin-top: 1%;
+    margin: 50px;
     text-decoration: none;
-    font-size: larger;
+    font-size: 30px;
 }
 
-.Impressumbutton {
-    letter-spacing: 1px;
-    color: #4a358b;
-    text-decoration: none;
-    font-size: larger
-}
 
 
 .FußZeile {
-    background-color: rgb(56, 53, 53);
+    background-color: rgb(43, 43, 43);
     color: whitesmoke;
     position: absolute;
     bottom: 0%;
     width: 100%;
-    height: 20%;
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,11 +47,11 @@ body {
     position: absolute;
     top: 25%;
     left: 15%;
-    font-size: large;
+    font-size: larger;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .icons {
@@ -97,16 +80,17 @@ input[type=email] {
     margin-top: 3%;
     box-sizing: border-box;
     font-family: "DM Serif Text", serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .formular button {
     color: black;
     background-color: #F0E4A2;
     margin-top: 3%;
-    padding: 2%;
+    padding: 12px;
     width: 20%;
     font-family: "DM Serif Text", serif;
     font-size: large;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    border-radius: 5px;
 }
