@@ -4,7 +4,7 @@ Dieses Repository enthält eine einfache Website, die anzeigt, dass sie sich noc
 
 ## Funktionen
 - Simples Layout mit HTML und CSS
-- Navigation zwischen Hauptseite und Impressum und Kontakt
+- Navigation zwischen Hauptseite, Impressum und Kontakt
 - Hinweis für eine Website die sich in der Entwicklung befindet "Under-Construction-Website"
 
 
@@ -23,6 +23,7 @@ Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeige
 - Erweiterung der Kontak Seite
 - Optische Verbesserung der Kopfzeile auf allen Seiten
 - Optische Verbesserung der Impressumseite
+- Optische Verbesserung der Hauptseite + Link meiner GitHub Seite mit Hover animation
 
 ## Live-Demo
 [Hier kannst du die Website ansehen](https://andrei04-0106.github.io/beginner-html-css-projekts)
