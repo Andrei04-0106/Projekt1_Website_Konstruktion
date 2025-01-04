@@ -41,7 +41,7 @@ Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeige
 
 
 ## Live-Demo
-[Hier kannst du die Website ansehen](https://andrei04-0106.github.io/beginner-html-css-projekts)
+[Hier kannst du die Website ansehen](https://andrei04-0106.github.io/Projekt1_Website_Konstruktion)
 
 ## Feedback
 Ich bin Anfänger und freue mich über Vorschläge und Tipps, wie ich dieses Projekt verbessern kann!
