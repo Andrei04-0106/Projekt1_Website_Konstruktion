@@ -7,7 +7,6 @@ Dieses Repository enthält eine einfache Website, die anzeigt, dass sie sich noc
 - Navigation zwischen Hauptseite, Impressum und Kontakt
 - Hinweis für eine Website die sich in der Entwicklung befindet "Under-Construction-Website"
 
-
 ## Ziel
 Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeigen, dass ich bereit bin, meine Fähigkeiten weiterzuentwickeln.
 
@@ -39,8 +38,7 @@ Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeige
    - Hover für die Icons der Kontakt seite
    - alle Seite haben neue Moderne Farb Hintergründe 
 
-
-## Live-Demo
+## Live-Demo (ACHTUNG LAYOUT IST AKTUELL NUR AUF LAPTOP AUSGERICHTET!)
 [Hier kannst du die Website ansehen](https://andrei04-0106.github.io/Projekt1_Website_Konstruktion)
 
 ## Feedback
