@@ -1,111 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
+body,
+html {
+    height: 100%;
+    margin: 0%;
+    overflow: hidden;
+}
+
 body {
-    background: linear-gradient(100deg, rgba(239, 213, 255, 0.5) 0%, rgba(81, 90, 218, 0.5) 100%);
-    padding: 0%;
-    margin: auto;
+    background: linear-gradient(65deg, rgba(239, 213, 255, 0.5) 0%, rgba(81, 90, 218, 0.4) 0%, rgb(218, 178, 230, 0.5) 100%);
     font-family: "DM Serif Text", serif;
 }
 
-.header1 {
+.header {
     display: flex;
     background-color: rgb(0, 0, 0);
-    height: 50px;
     justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
+    padding: 1.5em;
 }
 
-.fußzeile a {
-    color: #d2dc40;
+a {
+    color: rgb(210, 220, 64, 0.8);
     letter-spacing: 1px;
-    margin: 50px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2em;
+    margin-left: 1em;
 }
 
+a:hover {
+    color: rgb(210, 220, 64);
+    box-shadow: 0px 5px 0px 0px rgba(255, 255, 0);
+}
 
-
-.FußZeile {
-    background-color: rgb(43, 43, 43);
-    color: whitesmoke;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    height: 12%;
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: underline;
-    font-size: large;
-}
+    margin-top: 5%;
 
-
-.infoKontakt {
-    position: absolute;
-    top: 25%;
-    left: 15%;
-    font-size: larger;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3em;
+}
+
+address {
+    font-size: larger;
+}
+
+.formular {
+    box-sizing: border-box;
+    width: 45%;
+    margin-left: 20vh;
+    margin-bottom: 1em;
+    margin-top: auto;
+    padding: 0em 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+input {
+    padding: 1.5em;
+    margin-top: 2em;
+    width: 80%;
+    background: linear-gradient(95deg,
+            rgba(255, 160, 122, 0.1) 10%,
+            rgba(0, 128, 128, 0.1) 60%,
+            rgba(194, 178, 128, 0.1) 90%);
+    border-bottom: 1px solid rgb(29, 161, 242);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(0, 136, 255);
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    margin-top: 2em;
+    padding: 0.7em 1.2em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-family: "DM Serif Text", serif;
+    font-size: 1em;
+    background-color: rgba(208, 183, 106, 0.7);
+    box-shadow: 2px 2px 0px 0px;
+    transition-duration: 0.5;
+}
+
+button:hover {
+    transform: scale(1.2) translateX(0.7em);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .icons {
-    position: absolute;
-    left: 15%;
-    top: 55%;
-    letter-spacing: 5px;
-    font-size: 30px;
+    margin-top: 1em;
+    letter-spacing: 0.5rem;
+    font-size: 2em;
     transition: all 1s;
 }
 
-.icons .fa-brands.fa-instagram:hover {
-    color: #00acee;
+.bx.bxl-facebook {
+    background-color: rgb(59, 89, 152);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.icons .fa-brands.fa-facebook:hover {
-    color: #00acee;
+.bx.bxl-twitter {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
 }
 
-.icons .fa-brands.fa-square-twitter:hover {
-    color: #00acee;
+.bx.bxl-google {
+    background-color: rgb(15, 157, 88);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
 }
 
-.icons .fa-brands.fa-google:hover {
-    color: #00acee;
+.bx.bxl-instagram {
+    background: linear-gradient(45deg, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
 }
 
-.formularContainer {
-    position: absolute;
-    left: 50%;
-    top: 15%;
-    margin: 2%;
-    font-size: 22px;
+.icons .bx.bxl-instagram:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
 }
 
-
-.formular input[type=text],
-input[type=email] {
-    border: 0.5px solid black;
-    border-radius: 5px;
-    padding: 3.5%;
-    width: 100%;
-    margin-top: 3%;
-    box-sizing: border-box;
-    font-family: "DM Serif Text", serif;
-    font-size: 14px;
+.icons .bx.bxl-twitter:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
 }
 
-.formular button {
-    color: black;
-    background-color: #F0E4A2;
-    margin-top: 3%;
-    padding: 12px;
-    width: 20%;
-    font-family: "DM Serif Text", serif;
-    font-size: large;
-    letter-spacing: 1px;
-    border-radius: 5px;
+.icons .bx.bxl-google:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.icons .bx.bxl-facebook:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.containerfooter {
+    background-color: rgba(32, 32, 32, 0.9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    padding-top: 5vh;
+}
+
+.footer {
+    color: whitesmoke;
+    text-transform: uppercase;
 }
