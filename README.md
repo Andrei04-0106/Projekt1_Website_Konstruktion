@@ -3,9 +3,9 @@
 Dieses Repository enthält eine einfache Website, die anzeigt, dass sie sich noch in der Entwicklung befindet. Das Projekt dient dazu, meine Grundlagen in HTML und CSS zu üben.
 
 ## Funktionen
-- Simples Layout mit HTML und CSS
-- Navigation zwischen Hauptseite, Impressum und Kontakt
-- Hinweis für eine Website die sich in der Entwicklung befindet "Under-Construction-Website"
+- modernes Layout mit HTML und CSS
+- navigation zwischen Hauptseite, Impressum und Kontakt
+- hinweis für eine Website die sich in der Entwicklung befindet "Under-Construction-Website"
 
 ## Ziel
 Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeigen, dass ich bereit bin, meine Fähigkeiten weiterzuentwickeln.
@@ -15,28 +15,33 @@ Das Ziel dieses Projekts ist es, Webentwicklung Grundlagen zu üben und zu zeige
 - CSS
 
 ## Geplante Features
-- Responsive Design (Bootstrap)
+- responsive Design (Bootstrap)
 
 ## Erledigte Features
 1. Erweiterung der Kontakseite
-   - Formular Hinzugefügt: E-Mail-Adresse, Name und Message Feld
-   - Optisches Farb Styling
-   - Anschrift Feld mit Social Media Icons
+   - formular Hinzugefügt: E-Mail-Adresse, Name und Message Feld
+   - optisches Farb Styling
+   - anschrift Feld mit Social Media Icons
+   - copyright logo
    
 2. Optische Verbesserung der Kopfzeile auf allen Seiten
-   - Designänderung minimalistisch, einheitliches Design auf allen Seiten
+   - designänderung mit Hover Funktion, einheitliches Design auf allen Seiten
    
 3. Optische Verbesserung der Impressumseite
-   - Hintergrundfarbänderung dezent und optisch passend mit einem Schattierten Bild
+   - hintergrundfarbänderung dezent und optisch passend mit einem Schattierten Bild
    - einheitlichen Design
    
 4. Optische Verbesserung der Hauptseite
-   - Moderner auffallender Farbton
-   - neuer Container mit Link zur GitHub Page mit einer kleinen Hover Animation
+   - moderner auffallender Farbton
+   - neuer Container mit Link zur GitHub Page mit einer Hover Animation
    
-5. Hintergrundfarben-Update + Hover-Funktion
-   - Hover für die Icons der Kontakt seite
-   - alle Seite haben neue Moderne Farb Hintergründe 
+5. Hintergrundfarben-Update
+   - alle Seite haben neue Moderne gradient Farb Hintergründe
+
+6.  Verbesserung Codequalität
+   - bessere Beschriftung der Klassen
+   - bessere Struktur des Codes
+   - unnötige Codes entfernt
 
 ## Live-Demo (ACHTUNG LAYOUT IST AKTUELL NUR AUF LAPTOP AUSGERICHTET!)
 [Hier kannst du die Website ansehen](https://andrei04-0106.github.io/Projekt1_Website_Konstruktion)
