@@ -1,91 +1,404 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
-
-body,
-html {
-    height: 100%;
-    margin: 0%;
-    overflow: hidden;
-}
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
 
 body {
-    background: linear-gradient(65deg, rgba(239, 213, 255, 0.5) 0%, rgba(81, 90, 218, 0.4) 0%, rgb(218, 178, 230, 0.5) 100%);
-    font-family: "DM Serif Text", serif;
+  background: linear-gradient(
+    65deg,
+    rgba(239, 213, 255, 0.5) 0%,
+    rgba(81, 90, 218, 0.4) 0%,
+    rgb(218, 178, 230, 0.5) 100%
+  );
+  font-family: "DM Serif Text", serif;
+  margin: auto;
+  overflow: scroll;
 }
 
 .header {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-evenly;
+  padding: 0.8em;
+}
+
+a {
+  color: rgb(210, 220, 64, 0.8);
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+a:hover {
+  color: rgb(210, 220, 64);
+  box-shadow: 0px 5px 0px 0px rgba(255, 255, 0);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+address {
+  font-size: 15px;
+}
+
+.infokontakt {
+  margin-left: 10px;
+}
+
+.icons {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.bx.bxl-facebook {
+  background-color: rgb(59, 89, 152);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bx.bxl-twitter {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bx.bxl-google {
+  background-color: rgb(15, 157, 88);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bx.bxl-instagram {
+  background: linear-gradient(
+    45deg,
+    rgb(131, 58, 180),
+    rgb(253, 29, 29),
+    rgb(252, 176, 69)
+  );
+  color: white;
+  padding: 5px 5px;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.formular {
+  margin-left: 10px;
+  margin-top: 4em;
+}
+
+p {
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 18px;
+  width: 80%;
+  background: linear-gradient(
+    95deg,
+    rgba(255, 160, 122, 0.1) 10%,
+    rgba(0, 128, 128, 0.1) 60%,
+    rgba(194, 178, 128, 0.1) 90%
+  );
+  border-bottom: 1px solid rgb(29, 161, 242);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(0, 136, 255);
+}
+
+input::placeholder {
+  color: black;
+}
+
+button {
+  color: black;
+  margin-top: 15px;
+  padding: 4px 7px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-family: "DM Serif Text", serif;
+  font-size: 12px;
+  background-color: rgba(208, 183, 106, 0.7);
+  box-shadow: 2px 2px 0px 0px;
+}
+
+.containerfooter {
+  background-color: rgba(32, 32, 32, 0.9);
+  display: flex;
+  justify-content: center;
+  margin-top: 16vh;
+  padding: 30px;
+}
+
+.footer {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: linear-gradient(
+      65deg,
+      rgba(239, 213, 255, 0.5) 0%,
+      rgba(81, 90, 218, 0.4) 0%,
+      rgb(218, 178, 230, 0.5) 100%
+    );
+    font-family: "DM Serif Text", serif;
+    margin: auto;
+    overflow: scroll;
+  }
+
+  .header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    padding: 1.2em;
+  }
+
+  a {
+    color: rgb(210, 220, 64, 0.8);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-left: 1em;
+  }
+
+  a:hover {
+    color: rgb(210, 220, 64);
+    box-shadow: 0px 5px 0px 0px rgba(255, 255, 0);
+  }
+
+  .infokontakt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 2.4em;
+  }
+
+  address {
+    font-size: 18px;
+  }
+
+  .formular {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  input {
+    padding: 1.2em;
+    background: linear-gradient(
+      95deg,
+      rgba(255, 160, 122, 0.1) 10%,
+      rgba(0, 128, 128, 0.1) 60%,
+      rgba(194, 178, 128, 0.1) 90%
+    );
+    border-bottom: 1px solid rgb(29, 161, 242);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 0.8em;
+  }
+
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(0, 136, 255);
+  }
+
+  input::placeholder {
+    color: black;
+  }
+
+  button {
+    margin-top: 1em;
+    padding: 0.4em 0.7em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-family: "DM Serif Text", serif;
+    font-size: 0.8em;
+    background-color: rgba(208, 183, 106, 0.7);
+    box-shadow: 2px 2px 0px 0px;
+  }
+
+  .icons {
+    margin-top: 0.7em;
+    letter-spacing: 0.4rem;
+    font-size: 1em;
+    transition: all 1s;
+  }
+
+  .bx.bxl-facebook {
+    background-color: rgb(59, 89, 152);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .bx.bxl-twitter {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+  }
+
+  .bx.bxl-google {
+    background-color: rgb(15, 157, 88);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+  }
+
+  .bx.bxl-instagram {
+    background: linear-gradient(
+      45deg,
+      rgb(131, 58, 180),
+      rgb(253, 29, 29),
+      rgb(252, 176, 69)
+    );
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+  }
+
+  .containerfooter {
+    background-color: rgba(32, 32, 32, 0.9);
+    display: flex;
+    justify-content: center;
+    margin-top: 33vh;
+    width: 100%;
+  }
+
+  .footer {
+    color: whitesmoke;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 1050px) {
+  body {
+    background: linear-gradient(
+      65deg,
+      rgba(239, 213, 255, 0.5) 0%,
+      rgba(81, 90, 218, 0.4) 0%,
+      rgb(218, 178, 230, 0.5) 100%
+    );
+    font-family: "DM Serif Text", serif;
+    margin: auto;
+    overflow: scroll;
+  }
+
+  .header {
     display: flex;
     background-color: rgb(0, 0, 0);
     justify-content: space-evenly;
     padding: 1.5em;
-}
+  }
 
-a {
+  a {
     color: rgb(210, 220, 64, 0.8);
     letter-spacing: 1px;
     text-decoration: none;
     font-size: 2em;
     margin-left: 1em;
-}
+  }
 
-a:hover {
+  a:hover {
     color: rgb(210, 220, 64);
     box-shadow: 0px 5px 0px 0px rgba(255, 255, 0);
-}
+  }
 
-.container {
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+  }
 
-}
-
-h1 {
+  h1 {
     font-size: 3em;
-}
+  }
 
-address {
+  address {
     font-size: larger;
-}
+  }
 
-.formular {
+  .formular {
     box-sizing: border-box;
     width: 45%;
     margin-left: 20vh;
     margin-bottom: 1em;
     margin-top: auto;
     padding: 0em 2em;
-}
+  }
 
-p {
+  p {
     font-size: 1.5em;
-}
+  }
 
-input {
+  input {
     padding: 1.5em;
     margin-top: 2em;
     width: 80%;
-    background: linear-gradient(95deg,
-            rgba(255, 160, 122, 0.1) 10%,
-            rgba(0, 128, 128, 0.1) 60%,
-            rgba(194, 178, 128, 0.1) 90%);
+    background: linear-gradient(
+      95deg,
+      rgba(255, 160, 122, 0.1) 10%,
+      rgba(0, 128, 128, 0.1) 60%,
+      rgba(194, 178, 128, 0.1) 90%
+    );
     border-bottom: 1px solid rgb(29, 161, 242);
     border-top: none;
     border-left: none;
     border-right: none;
     font-size: 1em;
-}
+  }
 
-input:focus {
+  input:focus {
     outline: none;
     border-bottom: 2px solid rgb(0, 136, 255);
-}
+  }
 
-input::placeholder {
+  input::placeholder {
     color: black;
-}
+  }
 
-button {
+  button {
     margin-top: 2em;
     padding: 0.7em 1.2em;
     border: none;
@@ -96,21 +409,21 @@ button {
     background-color: rgba(208, 183, 106, 0.7);
     box-shadow: 2px 2px 0px 0px;
     transition-duration: 0.5;
-}
+  }
 
-button:hover {
+  button:hover {
     transform: scale(1.2) translateX(0.7em);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
+  }
 
-.icons {
+  .icons {
     margin-top: 1em;
     letter-spacing: 0.5rem;
     font-size: 2em;
     transition: all 1s;
-}
+  }
 
-.bx.bxl-facebook {
+  .bx.bxl-facebook {
     background-color: rgb(59, 89, 152);
     color: white;
     padding: 0.5rem 1rem;
@@ -118,9 +431,9 @@ button:hover {
     text-align: center;
     font-weight: bold;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+  }
 
-.bx.bxl-twitter {
+  .bx.bxl-twitter {
     background-color: rgb(29, 161, 242);
     color: white;
     padding: 0.5rem 1rem;
@@ -128,9 +441,9 @@ button:hover {
     font-weight: bold;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-weight: bold;
-}
+  }
 
-.bx.bxl-google {
+  .bx.bxl-google {
     background-color: rgb(15, 157, 88);
     color: white;
     padding: 0.5rem 1rem;
@@ -138,48 +451,54 @@ button:hover {
     font-weight: bold;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-weight: bold;
-}
+  }
 
-.bx.bxl-instagram {
-    background: linear-gradient(45deg, rgb(131, 58, 180), rgb(253, 29, 29), rgb(252, 176, 69));
+  .bx.bxl-instagram {
+    background: linear-gradient(
+      45deg,
+      rgb(131, 58, 180),
+      rgb(253, 29, 29),
+      rgb(252, 176, 69)
+    );
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-weight: bold;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-weight: bold;
-}
+  }
 
-.icons .bx.bxl-instagram:hover {
+  .icons .bx.bxl-instagram:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
-}
+  }
 
-.icons .bx.bxl-twitter:hover {
+  .icons .bx.bxl-twitter:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
-}
+  }
 
-.icons .bx.bxl-google:hover {
+  .icons .bx.bxl-google:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
-}
+  }
 
-.icons .bx.bxl-facebook:hover {
+  .icons .bx.bxl-facebook:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
-}
+  }
 
-.containerfooter {
+  .containerfooter {
     background-color: rgba(32, 32, 32, 0.9);
     height: 100vh;
     display: flex;
     justify-content: center;
     margin-top: 10vh;
     padding-top: 5vh;
-}
+  }
 
-.footer {
+  .footer {
     color: whitesmoke;
     text-transform: uppercase;
+  }
 }

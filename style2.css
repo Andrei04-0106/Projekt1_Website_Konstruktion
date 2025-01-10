@@ -1,38 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
 
 body {
-    background: rgb(160, 156, 219);
-    background: linear-gradient(200deg, rgba(168, 164, 215, 0.5) 21%, rgba(105, 115, 130, 0.5) 47%, rgba(73, 73, 102, 0.5) 81%);
-    font-family: "DM Serif Text", serif;
-    margin: auto;
+  background: rgb(160, 156, 219);
+  height: 100vh;
+  background: linear-gradient(
+    200deg,
+    rgba(168, 164, 215, 0.5) 21%,
+    rgba(105, 115, 130, 0.5) 47%,
+    rgba(73, 73, 102, 0.5) 81%
+  );
+  font-family: "DM Serif Text", serif;
+  margin: auto;
+  overflow: hidden;
 }
 
 .header {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-evenly;
+  padding: 0.8em;
+}
+
+a {
+  color: rgb(210, 220, 64, 0.8);
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+a:hover {
+  color: rgb(210, 220, 64);
+  box-shadow: 0px 5px 0px 0px rgba(255, 255, 0);
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+
+.containerImage {
+  background-image: url("bild2.jpg");
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  float: right;
+  background-size: contain;
+  box-shadow: 5px 5px 15px 5px;
+  border-radius: 200px;
+}
+
+.container {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 650px;
+  margin: 15px auto;
+  padding: 10px 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 15px 5px;
+  border-radius: 20px;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: rgb(160, 156, 219);
+    background: linear-gradient(
+      200deg,
+      rgba(168, 164, 215, 0.5) 21%,
+      rgba(105, 115, 130, 0.5) 47%,
+      rgba(73, 73, 102, 0.5) 100%
+    );
+    font-family: "DM Serif Text", serif;
+    margin: auto;
+    overflow: scroll;
+  }
+
+  .header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    padding: 1.2em;
+  }
+
+  a {
+    color: rgb(210, 220, 64, 0.8);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-left: 1em;
+  }
+
+  a:hover {
+    color: rgb(210, 220, 64);
+    box-shadow: 0px 5px 0px 0px rgba(255, 255, 0);
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .containerImage {
+    background-image: url("bild2.jpg");
+    width: 120px;
+    height: 120px;
+    margin: 15px auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 5px 5px 15px 5px;
+    background-size: cover;
+    border-radius: 200px;
+  }
+
+  .container {
+    background: rgb(255, 255, 255);
+    margin: 3em auto;
+    padding: 0px 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: 830px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px 5px;
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1050px) {
+  body {
+    background: rgb(160, 156, 219);
+    background: linear-gradient(
+      200deg,
+      rgba(168, 164, 215, 0.5) 21%,
+      rgba(105, 115, 130, 0.5) 47%,
+      rgba(73, 73, 102, 0.5) 81%
+    );
+    font-family: "DM Serif Text", serif;
+    margin: auto;
+    overflow: scroll;
+  }
+
+  .header {
     display: flex;
     background-color: rgb(0, 0, 0);
     justify-content: space-evenly;
     padding: 1.5em;
-}
+  }
 
-a {
+  a {
     color: rgb(210, 220, 64, 0.8);
     letter-spacing: 1px;
     text-decoration: none;
     font-size: 2em;
     margin-left: 1em;
-}
+  }
 
-a:hover {
+  a:hover {
     color: rgb(210, 220, 64);
     box-shadow: 0px 5px 0px 0px rgba(255, 255, 0);
-}
+  }
 
-h1 {
+  h1 {
     font-size: 50px;
-}
+  }
 
-.divImage {
-    background-image: url('bild2.jpg');
+  .containerImage {
+    background-image: url("bild2.jpg");
     width: 250px;
     height: 250px;
     background-repeat: no-repeat;
@@ -42,9 +175,9 @@ h1 {
     margin: 30px;
     background-size: cover;
     border-radius: 200px;
-}
+  }
 
-.divZwei {
+  .container {
     background: rgb(255, 255, 255);
     position: absolute;
     left: 15%;
@@ -57,4 +190,5 @@ h1 {
     font-size: larger;
     box-sizing: border-box;
     box-shadow: 5px 5px 15px 5px;
+  }
 }
