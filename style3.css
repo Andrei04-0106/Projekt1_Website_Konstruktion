@@ -9,7 +9,7 @@ body {
   );
   font-family: "DM Serif Text", serif;
   margin: auto;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .header {
@@ -162,7 +162,7 @@ button {
     );
     font-family: "DM Serif Text", serif;
     margin: auto;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .header {
