@@ -9,7 +9,7 @@ body {
   );
   font-family: "DM Serif Text", serif;
   margin: auto;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .header {
